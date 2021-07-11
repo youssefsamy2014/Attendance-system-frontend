@@ -1,0 +1,185 @@
+.page {
+  position: absolute;
+  min-height:100%;
+  width: 100%; 
+  max-width: 100%; 
+  height: 100%; 
+  /* border:1px solid black; */
+
+}
+
+.flexbox{
+  height:44vw;
+  width: 96vw;
+  display: grid;
+  position: absolute;
+  margin-left:1vw;
+  margin-top:5vw;
+
+}
+.registration h3{
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  font-size: calc(10px + 1.5vw);
+  height: 50px;
+  width: 100%;
+ 
+}
+.fandg{
+  position: sticky;  
+}
+
+.registration {
+  background-color: #ecebeb;
+  width: 460px;
+  height:727px;
+  /* border:1px solid black; */
+  border-radius: 7px;
+  box-shadow: 10px 10px 15px grey;
+  order:1;
+  grid-column: col 1;
+  grid-row: 1/4;
+
+}
+
+.btn{
+  width: 440px;
+}
+
+.up{
+  position: relative;
+  box-shadow: 10px 10px 15px grey;
+  /* border:2px solid black; */
+  max-height:440px;
+  width: 460px;
+
+  border-radius:7px;
+  background-color: #ecebeb;
+  order:2;
+  grid-column:col 2;
+  grid-row: 1;
+
+}
+.otpssss{
+  order:3;
+  margin-top: 10px;
+width:460px;
+  grid-column:col 2;
+  grid-row: 2;
+}
+
+.v{
+  position: relative;
+  top:-340px;
+   font-size:30;
+   left:410px;
+  }
+
+@media only screen and (max-width: 1000px) {
+  
+.flexbox{
+  width: 100vw;
+  display: grid;
+  position: absolute;
+  margin-top:10vw;
+  margin-left: 0;
+}
+    .registration {
+      grid-column:1;
+    grid-row: 1/4;
+      width: 100%;
+  
+    }
+    .up{
+      
+      grid-column:1;
+      grid-row: 8/9;
+      width: 100%;
+
+    }
+    .otpssss{
+      grid-column:1;
+      grid-row: 5/7;
+      width: 100%;
+
+       }
+       
+.btn{
+  width: 100%;
+}
+
+.v{
+  position: relative;
+  top:-340px;
+   font-size:30;
+   left:90%;
+  }
+
+  .fandg{
+    position: sticky;
+    font-size: small;
+    /* top:-10px; */
+    
+  }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 476px) {
+/* .page{
+  max-width:36vw;
+} */
+  .flexbox{
+    /* height:300vw; */
+    width: 96vw;
+    display: grid;
+    position: absolute;
+    margin-top:20vw;
+    margin-left:1vw;
+
+  }
+    .registration {
+      grid-column:1;
+      grid-row: 1/4;
+      width: 375px;
+
+    }
+    .up{
+      
+      grid-column:1;
+      grid-row: 8/9;
+      width: 375px;
+
+
+    }
+    .otpssss{
+      grid-column:1;
+      grid-row: 5/7;
+      width: 375px;
+
+       }
+       
+.btn{
+  width: 350px;
+
+}
+
+.v{
+  position: relative;
+  top:-340px;
+   font-size:30;
+   left:85%;
+
+  }
+
+  .fandg{
+    position: sticky;
+    font-size: small;
+
+  }
+
+  }

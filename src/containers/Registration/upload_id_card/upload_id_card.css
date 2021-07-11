@@ -1,0 +1,71 @@
+.new_button {
+    display: inline-block;
+    padding: 8px 10px; 
+    cursor: pointer;
+  /* border-radius: 7px; */
+    border-top-left-radius: 7px;
+    border-top-right-radius:7px ;
+    font-size: 16px;
+    width:455px;
+    min-width:455px;
+    background-color:deepskyblue;
+    color:white;
+  }
+
+input[type="file"] {
+  position: relative;
+  z-index: -1;
+  font-size: 15px;
+  color: rgb(153,153,153);
+  width:360px;
+
+}
+
+.button_wrap {
+  position: relative;
+}
+
+.imgss{
+  position:relative;
+  height:290px;
+  width:450px;
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .new_button {
+    width:100%;
+    min-width:100%;
+
+  }
+
+  .imgss{
+    position:relative;
+    height:290px;
+    width:90%;
+  
+  
+  }
+
+
+}
+
+
+@media only screen and (max-width: 476px) {
+  .new_button {
+
+    width:355px;
+
+    min-width:355px;
+
+  }
+
+  .imgss{
+    position:relative;
+    height:290px;
+    width:350px;
+  
+  
+  }
+}

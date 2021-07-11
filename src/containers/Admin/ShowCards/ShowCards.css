@@ -1,0 +1,83 @@
+.page{
+    width:98vw;
+    height:40vw;
+    position:absolute;
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-width: 460;
+    margin-left: 1vw;
+    /* border: 1px solid black; */
+
+}
+
+.cgrid{
+    width: 60vw;
+    height: 500px;
+    order: 1;
+    min-width: 460;
+    /* border: 1px solid black; */
+
+}
+.grid{
+    width: 60vw;
+    height: 440px;
+    min-width: 460;
+
+}
+
+.face{
+    order:2;
+    width: 30vw;
+    min-width: 460;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding-top:4px;
+}
+
+
+.face button{
+width:100%
+}
+.face img{
+    border: 1px solid gray;
+    position:relative;
+    height:350px;
+    width:300px;
+}
+
+
+@media only screen and (max-width: 900px) {
+   
+    
+    .cgrid{
+        width: 460px;
+        height: 500px;
+        position: relative;
+        order: 1;
+        min-width: 460;
+        /* border: 1px solid black; */
+    
+    }
+    /* .grid{
+        width: 460px;
+        height: 440px;
+        min-width: 460;
+    
+    } */
+    
+    .face{
+        order:3;
+        width:350px;
+        min-width: 460;
+    
+        height: 400px;
+        border: 1px solid black;
+        border-radius: 7px;
+        padding-top:4px;
+    }
+    
+}

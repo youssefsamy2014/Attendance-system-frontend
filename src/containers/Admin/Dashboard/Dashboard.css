@@ -1,0 +1,130 @@
+.dashboard{
+    position: absolute;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top:7.5vh;
+    padding-left: 10vw;
+}
+
+
+.flexContainer{
+    display: flex;
+    width: 80vw;
+    height:25vh;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    padding-top:5vh;
+    min-width: 1211;
+}
+
+.lbox{
+    width: 320px;
+    height: 15vh;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 20px 20px 60px gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.sbox{
+    width: 90px;
+    height: 90px;
+    border-radius: 7px;
+    position:relative;
+    top:-15px;
+    right: 60px;
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+    width:140px;
+    height: 25px;
+    font-size: 15px;
+    position:relative;
+    color: rgb(185, 181, 181);
+    margin-left: 20px;
+
+}
+
+
+.num{
+    width:110px;
+    height: 30px;
+    font-size: 20px;
+    position:relative;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    bottom: 70px;
+    right: 10px;
+}
+
+.chartsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80vw;
+    height:60vh;
+    /* border: 1px solid black; */
+    padding-top:7.5vh ;
+
+    /* left:105px; */
+}
+
+
+
+
+.Chart{
+    width: 430px;
+    height: 45vh;
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 20px 20px 60px gray;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+
+
+
+
+@media only screen and (max-width: 476px) {
+    .dashboard{
+        height:200vh;
+        padding-top:7.5vh;
+    }
+    
+.flexContainer{
+    height:80vh;
+    padding-top:5vh;
+
+}
+.chartsContainer{
+    height:120vh;
+    padding-top:5vh;
+
+}
+
+    .Chart{
+        width: 360px;
+        height: 50vh;
+        /* border: 1px solid black; */
+        border-radius: 7px;
+        background-color: white;
+        box-shadow: 20px 20px 60px gray;
+        /* display: flex;
+        flex-direction: row; */
+    
+    }
+}
